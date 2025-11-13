@@ -1,13 +1,8 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package org.lucasaristondo.examenacuario;
 
-/**
- *
- * @author Usuario
- */
-public class AnimalDuplicadoException {
-    
+public class AnimalDuplicadoException extends Exception {
+    public AnimalDuplicadoException(String mensaje) {
+        super(mensaje);
+    }
 }

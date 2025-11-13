@@ -15,7 +15,7 @@ public class Pez extends Animal implements BuscadorAlimento {
 
     @Override
     public void nadar() {
-        System.out.println(getNombre() + " está nadando en el agua " + getTipoAgua().toString().toLowerCase() + ".");
+        System.out.println(getNombre() + " esta nadando en el agua " + getTipoAgua().toString().toLowerCase() + ".");
     }
 
     @Override
@@ -25,6 +25,6 @@ public class Pez extends Animal implements BuscadorAlimento {
 
     @Override
     public String toString() {
-        return super.toString() + ", Longitud máxima: " + longitudMaxima + " cm";
+        return super.toString() + ", Longitud maxima: " + longitudMaxima + " cm";
     }
 }

@@ -20,11 +20,11 @@ public class Crustaceo extends Animal implements BuscadorAlimento {
 
     @Override
     public void buscarAlimento() {
-        System.out.println(getNombre() + " está buscando alimento");
+        System.out.println(getNombre() + " esta buscando alimento");
     }
 
     @Override
     public String toString() {
-        return super.toString() + ", Número de patas: " + numeroPatas;
+        return super.toString() + ", Numero de patas: " + numeroPatas;
     }
 }

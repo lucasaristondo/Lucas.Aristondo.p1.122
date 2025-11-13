@@ -15,16 +15,16 @@ public class MamiferoMarino extends Animal implements BuscadorAlimento {
 
     @Override
     public void nadar() {
-        System.out.println(getNombre() + " está nadando y necesita salir a respirar cada " + frecuenciaRespiracion + " segundos");
+        System.out.println(getNombre() + " esta nadando y necesita salir a respirar cada " + frecuenciaRespiracion + " segundos");
     }
 
     @Override
     public void buscarAlimento() {
-        System.out.println(getNombre() + " está buscando alimento en el agua " + getTipoAgua().toString().toLowerCase() + ".");
+        System.out.println(getNombre() + " esta buscando alimento en el agua " + getTipoAgua().toString().toLowerCase() + ".");
     }
 
     @Override
     public String toString() {
-        return super.toString() + ", Frecuencia de respiración: " + frecuenciaRespiracion + " s";
+        return super.toString() + ", Frecuencia de respiracion: " + frecuenciaRespiracion + " s";
     }
 }

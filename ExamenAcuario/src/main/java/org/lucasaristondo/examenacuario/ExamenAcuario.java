@@ -9,7 +9,7 @@ public class ExamenAcuario {
         try {
             
             Pez pez1 = new Pez("Pez1", "Acuario de agua salada", TipoAgua.SALADA, 12);
-            MamiferoMarino mamifero1 = new MamiferoMarino("Mamifero1", "Océano", TipoAgua.SALADA, 6);
+            MamiferoMarino mamifero1 = new MamiferoMarino("Mamifero1", "Oceano", TipoAgua.SALADA, 6);
             Crustaceo crustaceo1 = new Crustaceo("Crustaceo1", "Fondo Marino", TipoAgua.SALADA, 8);
 
            

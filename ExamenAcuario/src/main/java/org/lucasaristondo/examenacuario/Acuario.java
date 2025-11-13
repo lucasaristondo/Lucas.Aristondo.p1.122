@@ -15,7 +15,7 @@ public class Acuario {
         for (Animal a : animales) {
             if (a.getNombre().equalsIgnoreCase(animal.getNombre()) &&
                 a.getHabitat().equalsIgnoreCase(animal.getHabitat())) {
-                throw new AnimalDuplicadoException("Ya existe un animal con ese nombre y hábitat en el acuario.");
+                throw new AnimalDuplicadoException("Ya existe un animal con ese nombre y habitat en el acuario.");
             }
         }
         animales.add(animal);

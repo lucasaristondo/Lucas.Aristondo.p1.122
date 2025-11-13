@@ -1,13 +1,33 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package org.lucasaristondo.examenacuario;
 
-/**
- *
- * @author Usuario
- */
-public class Animal {
-    
+public abstract class Animal {
+    private String nombre;
+    private String habitat;
+    private TipoAgua tipoAgua;
+
+    public Animal(String nombre, String habitat, TipoAgua tipoAgua) {
+        this.nombre = nombre;
+        this.habitat = habitat;
+        this.tipoAgua = tipoAgua;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getHabitat() {
+        return habitat;
+    }
+
+    public TipoAgua getTipoAgua() {
+        return tipoAgua;
+    }
+
+    public abstract void nadar() throws AccionNoPermitidaException;
+
+    @Override
+    public String toString() {
+        return "Nombre: " + nombre + ", Habitat: " + habitat + ", Tipo de agua: " + tipoAgua;
+    }
 }
